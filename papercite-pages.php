@@ -55,7 +55,7 @@ function papercite_pages_publication_redirect() {
         }
     }
 }
-add_action( 'template_redirect', 'papercite_pages_redirect' );
+add_action( 'template_redirect', 'papercite_pages_publication_redirect' );
 
 function papercite_pages_document_title_parts ( $title ) {  
     global $post;
